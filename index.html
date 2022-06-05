@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>App de Gastos</title>
+</head>
+<body>
+    <main class="contenedor">
+        <section class="encabezado_section">
+            <div class="encabezado">
+                <h1 id="titulo">App de gastos</h1>
+                <h2 id="subtitulo">ingresa cuanto gasto cada persona</h2>
+            </div>
+        </section>
+        <section class="calculadora_section">
+            <div class="calculadora">
+                <input type="text" name="" id="nombres"> <br> <br> 
+                <input type="number" name="" id="cantidad"> <br> <br>
+                <button id="enviar" onclick="enviarDato()">Enviar</button>
+                <div id="amigos"></div>
+                <h3 id="total"></h3>
+                <h3 id="totalPagar"></h3>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
